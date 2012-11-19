@@ -2,6 +2,8 @@
 
 A [Hover Zoom](https://chrome.google.com/webstore/detail/nonjdcjchghhkdoolnlbekcfllmednbl) (chrome extension) supported more Chinese websites (weibo/douban/zhihu).
 
+![Hover Zoom Plus Screenshot](http://github.com/imwilsonxu/hover-zoom-plus/raw/master/screenshots/screenshot.png)
+
 # USAGE
 
 1. Download codes: `git clone https://github.com/imwilsonxu/hover-zoom-plus.git`

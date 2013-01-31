@@ -254,6 +254,10 @@
       "matches": [ "*://*.weibo.com/*" ],
       "run_at": "document_start"
    }, {
+      "js": [ "plugins/hupu.js" ],
+      "matches": [ "*://*.hupu.com/*" ],
+      "run_at": "document_start"
+   }, {
       "js": [ "plugins/douban.js" ],
       "matches": [ "*://*.douban.com/*" ],
       "run_at": "document_start"

@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-A [Hover Zoom](https://chrome.google.com/webstore/detail/nonjdcjchghhkdoolnlbekcfllmednbl) (chrome extension) supported more Chinese websites (weibo/douban/zhihu).
+A fork of [Hover Zoom](https://chrome.google.com/webstore/detail/nonjdcjchghhkdoolnlbekcfllmednbl) (chrome extension) supports more Chinese websites (weibo/douban/zhihu).
 
 ![Hover Zoom Plus Screenshot](http://github.com/imwilsonxu/hover-zoom-plus/raw/master/screenshots/screenshot.png)
 

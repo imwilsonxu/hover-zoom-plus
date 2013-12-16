@@ -1,4 +1,5 @@
-﻿// Author: Wilson Xu <imwilsonxu@gmail.com>
+// Author: Wilson Xu <imwilsonxu@gmail.com>
+
 
 var hoverZoomPlugins = hoverZoomPlugins || [];
 hoverZoomPlugins.push( {
@@ -33,12 +34,19 @@ hoverZoomPlugins.push( {
             /mpic/,
             'lpic'
         );
-// http://img3.douban.com/icon/u56272638-3.jpg
-// http://img3.douban.com/icon/ul56272638-3.jpg
+// http://img3.douban.com/icon/u29449961-4.jpg
+// http://img3.douban.com/icon/ul29449961-4.jpg
         hoverZoom.urlReplace(res,
             'img[src*="icon/u"]',
-            /u([0-9]+-[0-9])\.jpg/,
+            /u([0-9]+-[0-9]+)\.jpg/,
             'ul$1.jpg'
+        );
+// http://img3.douban.com/view/commodity_story/imedium/public/p5950748.jpg
+// http://img3.douban.com/view/commodity_story/medium/public/p5950748.jpg
+        hoverZoom.urlReplace(res,
+            'img[class="story-image"]',
+            /imedium/,
+            'medium'
         );
         callback($(res));
     }
